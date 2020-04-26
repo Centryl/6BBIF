@@ -2,7 +2,8 @@ package ranits_sales;
 
 public class Customer {
 	private int customerID;
-	private String firstname;
+	private String firstName;
+	private double credit;
 	
 	public Customer()
 	{
@@ -13,15 +14,26 @@ public class Customer {
 		return customerID;
 	}
 
-	public void setCustomerID(int customerID) {
+	public void setCustomerID(int customerID) 
+	{
 		this.customerID = customerID;
 	}
 
-	public String getFirstname() {
-		return firstname;
+	public String getFirstName() 
+	{
+		return firstName;
 	}
 
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	public void setFirstName(String firstName)
+	{
+		this.firstName = firstName;
+	}
+
+	public double getCredit() {
+		return credit;
+	}
+
+	public void setCredit(double credit) {
+		this.credit = credit;
 	}
 }
