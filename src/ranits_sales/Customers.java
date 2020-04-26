@@ -2,7 +2,7 @@ package ranits_sales;
 
 import java.util.ArrayList;
 
-public class Customers { //nur ein Testfile
+public class Customers { //nur ein Testfile zum ueben
 	
 	private ArrayList<Customer> customers;
 	
